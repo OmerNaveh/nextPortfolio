@@ -29,7 +29,6 @@ const Experience = () => {
         "Leveraged AWS cloud services to architect and scale robust infrastructure, ensuring seamless performance and reliability for large-scale applications",
         "Developed a PWA (Progressive Web App) used by thousands of users",
         "Developed a Mobile App using React Native, used by hundreds of users",
-        "Implemented a QR proxy service, enhancing user experience and simplifying QR code interactions",
         "Managed the development and execution of client-facing applications, leading a team of three developers and working in close collaboration with a designer",
       ],
       date: "September 2022 - Present",
@@ -66,14 +65,14 @@ const Experience = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
-      className="flex h-screen overflow-hidden w-full space-y-8 relative text-center md:text-left md:flex-row
-      max-w-7xl mx-auto px-5 items-center justify-evenly snap-center md:gap-10
+      className="flex h-screen overflow-hidden w-full relative text-center md:text-left flex-col
+      max-w-7xl mx-auto px-5 items-center snap-center md:gap-10
       "
     >
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-2xl text-primary/60">
+      <h3 className="absolute text-center top-12 md:top-24 left-0 right-0 mx-auto uppercase tracking-[20px] text-2xl text-primary/60">
         Experience
       </h3>
-      <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory">
+      <div className="w-full pt-28 md:pt-40 pb-5 flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory">
         {experience.map((exp) => (
           <ExperienceCard key={exp.companyName} {...exp} />
         ))}

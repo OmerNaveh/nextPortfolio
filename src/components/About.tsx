@@ -25,7 +25,7 @@ const About = () => {
       />
       <div className="space-y-10 px-0 mid:px-10">
         <h4 className="text-4xl font-semibold">
-          A <code>bit</code> about myself
+          A <code className="text-[#950740]">bit</code> about myself
         </h4>
         <p>
           Hi there! I'm a passionate Full Stack Developer fueled by curiosity
