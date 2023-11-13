@@ -1,5 +1,3 @@
-import React from "react";
-
 const BackgroundCircles = () => {
   return (
     <div className="absolute hidden justify-center items-center z-[-1] h-full w-full md:flex">

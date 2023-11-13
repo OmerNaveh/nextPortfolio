@@ -36,7 +36,7 @@ const ExperienceCard = ({
           })}
         </div>
         <p className="uppercase py-5 text-sm">{date}</p>
-        <ul className="list-disc space-y-4 ml-5 text-sm">
+        <ul className="list-disc space-y-4 ml-5 text-sm text-left">
           {summaryPoints.map((point) => {
             return (
               <li key={point} className="text-xs">

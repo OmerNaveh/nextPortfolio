@@ -24,7 +24,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={cn(
-          "min-h-screen bg-background font-sans antialiased",
+          "min-h-screen bg-background font-sans antialiased scrollbar-thin scrollbar-thumb-[#950740] scrollbar-track-foreground/10",
           fontSans.variable
         )}
       >

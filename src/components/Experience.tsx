@@ -65,14 +65,14 @@ const Experience = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
-      className="flex h-screen overflow-hidden w-full relative text-center md:text-left flex-col
-      max-w-7xl mx-auto px-5 items-center snap-center md:gap-10
+      className="flex h-screen overflow-hidden w-full relative text-center flex-col
+      max-w-7xl mx-auto px-5 items-center snap-center md:gap-2
       "
     >
-      <h3 className="absolute text-center top-12 md:top-24 left-0 right-0 mx-auto uppercase tracking-[20px] text-2xl text-primary/60">
+      <h3 className="text-center uppercase tracking-[20px] text-2xl text-primary/60">
         Experience
       </h3>
-      <div className="w-full pt-28 md:pt-40 pb-5 flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory">
+      <div className="w-full pt-10 md:pt-20 pb-5 flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory scrollbar-thin scrollbar-thumb-[#950740] scrollbar-track-foreground/10">
         {experience.map((exp) => (
           <ExperienceCard key={exp.companyName} {...exp} />
         ))}

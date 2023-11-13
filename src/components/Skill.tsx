@@ -1,26 +1,27 @@
-"use client";
-import { motion } from "framer-motion";
+import Image from "next/image";
 
 type props = {
-  directionLeft?: boolean;
+  name: string;
+  src: string;
 };
 
-const Skill = ({ directionLeft }: props) => {
+const Skill = ({ name, src }: props) => {
   return (
-    <div className="group relative flex cursor-pointer">
-      <motion.img
-        initial={{ opacity: 0, x: directionLeft ? -200 : 200 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 1 }}
-        src=""
+    <div className="group relative flex justify-center">
+      <Image
+        src={src}
         alt="Skill Image"
-        className="rounded-full border border-gray-500 object-cover w-24 h-24 xl:2-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out"
+        height={80}
+        width={80}
+        className="rounded-full border border-primary/60 object-contain h-14 w-14 sm:w-20 sm:h-20 filter md:group-hover:grayscale md:group-hover:opacity-20 transition duration-300 ease-in-out"
       />
       <div
-        className="absolute flex items-center justify-center opacity-0 
-      group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg/10 h-24 w-24 xl:2-32 xl:h-32 rounded-full z-0 "
+        className="absolute inset-0 flex items-center justify-center opacity-0 text-center
+      md:group-hover:opacity-80 transition duration-300 ease-in-out rounded-full z-0 "
       >
-        <p className="text-2xl font-bold opacity-100 h-full">100%</p>
+        <p className="capitalize text-xs font-bold opacity-100">
+          {name === "reactNative" ? "react native" : name}
+        </p>
       </div>
     </div>
   );

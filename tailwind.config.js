@@ -17,6 +17,9 @@ module.exports = {
       },
     },
     extend: {
+      screens: {
+        xs: "380px",
+      },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
       },
@@ -76,5 +79,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"), require("tailwind-scrollbar")],
 };
