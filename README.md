@@ -4,7 +4,7 @@ Welcome to the source code repository for my personal portfolio website, crafted
 
 ## Live Site
 
-Check out the live site here: [Omer Naveh's Portfolio](https://OmerNaveh.github.io/nextPortfolio)
+Check out the live site here: [Omer Naveh's Portfolio](https://next-portfolio-six-theta.vercel.app/)
 
 ## Technologies Used
 
