@@ -29,16 +29,9 @@ const About = () => {
             A <code className="text-[#950740]">bit</code> about myself
           </h4>
           <p className="text-sm xs:text-base">
-            Hi there! I'm a passionate Full Stack Developer fueled by curiosity
-            and a love for code. At heart, I'm a tech enthusiast who loves
-            diving into new challenges and learning along the way. My toolbox is
-            packed with various technologies, allowing me to turn intricate
-            technical ideas into something simple and accessible for everyone.
-            Each project is a new adventure for me, an opportunity to innovate
-            and make a positive impact in the tech world. I'm here to explore,
-            create, and make the web a little better, one project at a time. My
-            goal is not just to keep pace with the rapidly evolving tech
-            landscape, but to play an active role in shaping it!
+            {
+              "Hi there! I'm a passionate Full Stack Developer fueled by curiosity and a love for code. At heart, I'm a tech enthusiast who loves diving into new challenges and learning along the way. My toolbox is packed with various technologies, allowing me to turn intricate technical ideas into something simple and accessible for everyone. Each project is a new adventure for me, an opportunity to innovate and make a positive impact in the tech world. I'm here to explore, create, and make the web a little better, one project at a time. My goal is not just to keep pace with the rapidly evolving tech landscape, but to play an active role in shaping it!"
+            }
           </p>
         </div>
       </div>

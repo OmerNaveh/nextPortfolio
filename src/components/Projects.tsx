@@ -8,28 +8,28 @@ const Projects = () => {
       title: "Nina PWA",
       description:
         "Nina's PWA is a web application where users can engage with an IOT platform that allows them to pay by the drop for their alcohol",
-      image: "/b2c.png",
+      image: "/b2c.webp",
       link: "https://app.ninalabs.io/?spaceid=361",
     },
     {
       title: "Nina Installer",
       description:
         "Nina Installer is a mobile application allowing Nina operators to monitor, control and install Nina's IOT devices",
-      image: "/b2b.png",
+      image: "/b2b.webp",
       link: "https://apps.apple.com/us/app/nina-installer/id1627332634",
     },
     {
       title: "Dispatcher",
       description:
         "Dispatcher is a web application where a user can scroll through and visit the latest news articles from all across different news sources",
-      image: "/disptacher.png",
+      image: "/disptacher.webp",
       link: "https://github.com/OmerNaveh/dispatcher",
     },
     {
       title: "Loop Machine",
       description:
         "Loop Machine is a web application which lets you play around with different audio tracks",
-      image: "/loopMachine.png",
+      image: "/loopMachine.webp",
       link: "https://github.com/OmerNaveh/moveo-project",
     },
   ];

@@ -9,7 +9,7 @@ const Hero = () => {
       className="flex flex-col justify-center items-center h-screen relative px-5"
     >
       <Image
-        src={"/omer-image.jpeg"}
+        src={"/omer-image.webp"}
         width={200}
         height={200}
         alt="Developer Image"
