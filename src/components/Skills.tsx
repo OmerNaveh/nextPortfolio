@@ -11,7 +11,7 @@ const Skills = () => {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
       className="flex flex-col h-screen overflow-hidden w-full relative text-center
-    max-w-7xl mx-auto px-5 items-center snap-center gap-10 xs:gap-20 pt-20 xs:pt-0
+    max-w-7xl mx-auto px-5 items-center gap-10 xs:gap-20 pt-20 xs:pt-0
     "
     >
       <h3 className="text-center uppercase tracking-[20px] text-2xl text-primary/60">

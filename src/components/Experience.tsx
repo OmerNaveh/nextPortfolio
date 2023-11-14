@@ -66,7 +66,7 @@ const Experience = () => {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
       className="flex h-screen overflow-hidden w-full relative text-center flex-col
-      max-w-7xl mx-auto px-5 items-center snap-center md:gap-2
+      max-w-7xl mx-auto px-5 items-center md:gap-2
       "
     >
       <h3 className="text-center uppercase tracking-[20px] text-2xl text-primary/60">

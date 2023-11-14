@@ -64,14 +64,16 @@
     --input: 240 1% 31%;
     --ring: 212.7 26.8% 83.9%;
   }
-}
-
-@layer base {
   * {
     @apply border-border;
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+@layer components {
+  .contactInput {
+    @apply outline-none bg-primary/10 rounded-sm border-b px-6 py-4 text-primary placeholder:text-primary/50 focus:border-[#950740]/40;
   }
 }
 .height-important {

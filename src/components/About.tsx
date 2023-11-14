@@ -8,7 +8,7 @@ const About = () => {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
       className="flex flex-col h-screen overflow-hidden relative text-center
-      max-w-7xl mx-auto px-5 snap-center md:gap-20 md:pt-20
+      max-w-7xl mx-auto px-5 md:gap-20 md:pt-20
       "
     >
       <h3 className="text-center uppercase tracking-[20px] text-2xl text-primary/60">

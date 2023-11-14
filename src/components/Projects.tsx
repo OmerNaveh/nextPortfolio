@@ -40,7 +40,7 @@ const Projects = () => {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
       className="relative flex flex-col h-screen overflow-hidden w-full
-     px-5 items-center snap-center pt-20 xs:pt-10
+     px-5 items-center pt-20 xs:pt-10
     "
     >
       <div className="w-screen absolute top-[30%] bg-[#950740]/20 left-0 h-60 -skew-y-12" />

@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="flex flex-col justify-center items-center h-screen relative snap-start px-5"
+      className="flex flex-col justify-center items-center h-screen relative px-5"
     >
       <Image
         src={"/omer-image.jpeg"}
