@@ -60,6 +60,7 @@ const Projects = () => {
                   alt={project.title}
                   width={150}
                   height={150}
+                  loading="eager"
                   className="w-28 md:w-40"
                 />
                 <div className="max-w-xl space-y-10">
