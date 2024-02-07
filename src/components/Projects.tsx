@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { Link } from "lucide-react";
 
 const Projects = () => {
   const projects = [
@@ -17,6 +18,13 @@ const Projects = () => {
         "Nina Installer is a mobile application allowing Nina operators to monitor, control and install Nina's IOT devices",
       image: "/b2b.webp",
       link: "https://apps.apple.com/us/app/nina-installer/id1627332634",
+    },
+    {
+      title: "Amanda",
+      description:
+        "Amanda is a social game platform that combines a unique IOT device with engaging gameplay for a fun and interactive experience, ensuring every night is memorable",
+      image: "/amanda.webp",
+      link: "https://amanda-pwa.vercel.app/",
     },
     {
       title: "Dispatcher",
@@ -74,7 +82,8 @@ const Projects = () => {
                       );
                     }}
                   >
-                    <code>
+                    <code className="flex items-center gap-2 justify-center">
+                      <Link size={16} className="ml-2" />
                       Project {index + 1}/{projects.length}:
                     </code>{" "}
                     {project.title}
